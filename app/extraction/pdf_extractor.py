@@ -1,5 +1,5 @@
 
-import fitz
+import pymupdf
 from pathlib import Path
 
 
@@ -15,7 +15,7 @@ class PDFExtractor:
                 print("PDF file not found!")
                 return None
 
-            document = fitz.open(pdf_path)
+            document = pymupdf.open(pdf_path)
 
             extracted_text = []
 
