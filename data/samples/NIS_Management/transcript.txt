@@ -1,0 +1,963 @@
+NIS Management Ltd.ISO 9001:2015 Certified                                                                 CIN: L74110WB2006PLC108679 
+Regd. Office:  1st Floor, FI-1A (W), 489, Madurdaha, Kalikapur, Kolkata – 700 107, West Bengal 
+Phone: 91 33 2443 2026, Fax: 91 33 2443 2026, E- mail: info@nis.co.in, Website: www.nis.co.in 
+Date: November 21, 2026  
+To, 
+The Manager 
+Listing and Compliance Department 
+Bombay Stock Exchange Limited 
+P. J. Tower, Dalal Street,  
+Fort, Mumbai- 400 001. 
+ 
+Dear Sir/Madam, 
+ 
+Sub: Transcript of the Investors’ Earnings Call held on 17th November, 2026 on the Unaudited Financial Results 
+for quarter and half year ended September 30, 2026 
+REF: NIS MANAGEMENT LIMITED (SCRIP CODE: 544495) 
+ 
+Please find enclosed herewith the copy of transcript of the Investors’ Earnings Call held on 17th November, 2026, with 
+respect to the Unaudited Financial Results for the quarter and half year ended September 30, 2026. 
+ 
+The transcript of the aforesaid earnings call with Investors/Analysts is available on the Company’s website and can be 
+accessed on the following link: 
+https://nis.co.in/policies/NIS%20Management%20Ltd_Q2%20&%20HFY27%20Concall%20Transcript.pdf#toolbar=1  
+ 
+We request you to take note of the same. 
+ 
+Thanking You, 
+ 
+FOR, NIS MANAGEMENT LIMITED 
+ 
+ 
+_____________________________ 
+DEBAJIT CHOUDHURY  
+MANAGING DIRECTOR  
+DIN: 00932489 
+ 
+Date: November 21, 2026 
+Place: Kolkata 
+ 
+Encl.: As above  
+ 
+ 
+ 
+Debajit 
+Choudhury
+Digitally signed by Debajit Choudhury 
+DN: c=IN, o=Personal, 
+2.5.4.20=eaaa99f2d8553e5b09cd530cfbb591a4858e3dd14231e6c12f4ea
+6874381068e, postalCode=700107, l=Kolkata, st=West Bengal, 
+serialNumber=c428e7fb118c22a7f61eea776b90f29442d2b6321e731c51
+a3a051d61e2b33dc, email=dc@nis.co.in, cn=Debajit Choudhury 
+Date: 2026.11.21 16:11:26 +05'30'
+
+Page 1 of 17 
+ 
+ 
+ 
+ 
+ 
+“NIS Management Limited 
+Q2 & H1 FY27 Earnings Conference Call” 
+November 17, 2026 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+MANAGEMENT: MR. DEBAJIT CHOUDHURY – MANAGING DIRECTOR – 
+NIS MANAGEMENT LIMITED 
+MR. KANAD MUKHERJEE– CHIEF FINANCIAL OFFICER 
+– NIS MANAGEMENT LIMITED 
+ 
+MODERATOR: 
+MR. SOUMIK CHATTERJEE – KIRIN ADVISORS 
+PRIVATE LIMITED 
+
+NIS Management Limited 
+November 17, 2026 
+Page 2 of 17 
+ 
+ 
+ 
+ 
+ 
+Moderator: 
+Ladies and gentlemen, good day and welcome to the NIS Management Limited Q2 and H1 FY27 
+Earnings Conference Call hosted by Kirin Advisors Private Limited. As a reminder, all 
+participant lines will be in the listen-only mode and there will be an opportunity for you to ask 
+questions after the presentation concludes. Should you need assistance during the conference 
+call, please signal an operator by pressing star then zero on your touchtone phone. 
+ 
+I now hand the conference over to Mr. Soumik Chatterjee from Kirin Advisors Private Limited. 
+Thank you, and over to you, sir. 
+ 
+Soumik Chatterjee: 
+Thank you. Good afternoon, everyone. On behalf of Kirin Advisors, I welcome you all to the 
+conference call of NIS Management Limited. From the management team, we have Mr. Debajit 
+Choudhury, Managing Director, and Mr. Kanad Mukherjee, Chief Financial Officer of the 
+company. 
+ 
+With that, now I hand over the call to Mr. Debajit Choudhury for the opening remarks. Over to 
+you, sir. 
+ 
+Debajit Choudhury: 
+Thank you. Good afternoon, everybody, and thank you for joining us. On behalf of the 
+management team, I would like to welcome all our investors, analysts, and stakeholders to NIS 
+Management Limited's Earnings Call for the Second Quarter and First Half of FY27. 
+ 
+For those joining us for the first time, let me briefly introduce NIS Management Limited and our 
+business. Founded in Kolkata in 1985 as a security and investigative services provider, the 
+company has steadily evolved into an integrated services platform offering security services, 
+facility management, electronic security, and skill development solutions. 
+ 
+Over the years, we have expanded our service portfolio and geographical presence to serve a 
+diverse client, clientele across corporate, institutional, and government segments. Today, we 
+manage a workforce of more than 19,000 personnel across 14 states, supporting operations at 
+approximately 1,500 sites. Our clientele spans corporates, banks, hospitality groups, 
+manufacturing units, healthcare institutions, public sector enterprises, airports, and retail 
+companies. 
+ 
+Through our subsidiaries, NIS Facility Management Services Private Limited and Keertika 
+Academy Private Limited, we have further strengthened our capabilities in electronic security 
+solutions and skill development. An important milestone in our growth journey has been our 
+transition into a listed company following our listing on the BSE SME platform on September 
+'25. 
+ 
+Since our IPO, we have secured and intimated work orders aggregating approximately INR120 
+crores, reflecting growing confidence of established private sector organizations, government 
+institutions, and public sector clients in our service capabilities. These orders span multiple 
+
+NIS Management Limited 
+November 17, 2026 
+Page 3 of 17 
+ 
+ 
+service segments, including integrated facility management, security services, electronic 
+surveillance, infrastructure support, and skill development. 
+ 
+Some of our key engagements include mandates from Reliance Group, various government 
+departments in Bihar and West Bengal, Mumbai Police, and other institutional clients. These 
+engagements have strengthened our geographical presence and diversified our client base. We 
+are pleased to share that NIS received Rhodium status under the State Bank of India's SME Star 
+Rating Program in August '26. 
+ 
+Additionally, ICRA upgraded our long-term credit rating to A- stable from BBB+ positive, while 
+our short-term credit rating was upgraded to A2+ from A2. These recognitions reflect the 
+strengthening of our credit profile, healthy traction in new order wins, and improved financial 
+flexibility following the equity infusion through our IPO, further reinforcing our credentials 
+among financial institutions and other stakeholders. 
+ 
+As we reflect on the first half of FY27, I am pleased to share that we have continued to make 
+progress in strengthening our business operations and expanding our presence across corporate 
+and government segments. During the period, we secured several new work orders across 
+security services, facility management, and skill development, reflecting the confidence placed 
+in our service capabilities and our ability to deliver integrated solutions. 
+ 
+During Q2 FY27, we secured new orders aggregating INR55.55 crores from various government 
+departments and institutions. These included INR11.9 crores work order from West Bengal State 
+Electricity Distribution Company Limited for the deployment of approximately 250 security 
+personnel across various locations in West Bengal for a 2-year period. 
+ 
+We also secured an INR7.93 crores work order from Odisha Rural Development and Marketing 
+Society under the Deen Dayal Upadhyaya Grameen Kaushalya Yojana, DDU-GKY, for skill 
+development training and placement of 1,200 rural youth in Odisha. 
+ 
+Additionally, we received 2 work orders aggregating INR34.22 crores from the Building 
+Construction Department, Patna, for housekeeping, operation, and maintenance services at 
+residential premises in Gardanibagh. These contracts have a tenure of 5 years and further 
+strengthen our presence in the facility management segment. 
+ 
+We also secured a INR1.5 crores work order from the Government of West Bengal for training 
+210 rural youth and facilitating placements for 150 youth under the DDU-GKY scheme. These 
+engagements strengthen our presence across multiple service categories and provide 
+opportunities to deepen our relationships with the government and institutional clients. 
+ 
+Following the close of the second quarter, we continue to strengthen our electronic security 
+business through our subsidiary, NIS Facility Management Services Private Limited. The 
+subsidiary secured a INR6.24 crores work order from CRM Enterprise Business Private Limited 
+for the deployment of automatic number plate recognition systems and IP-based CCTV 
+
+NIS Management Limited 
+November 17, 2026 
+Page 4 of 17 
+ 
+ 
+surveillance systems across 9 police districts and 1 commissionerate, along with body-worn 
+cameras and night vision binoculars. 
+ 
+In addition, we secured two work orders from West Bengal Police Housing and Infrastructure 
+Development Corporation Limited for the installation of CCTV surveillance systems at various 
+locations in Pandua and Polba, Hooghly, valued at INR53.15 lakhs and INR33.31 lakhs, 
+respectively. These developments reflect our continued focus on expanding technology-enabled 
+services and strengthening our capabilities in electronic security solutions. 
+ 
+Coming to our financial performance for the 2nd quarter of FY27, consolidated total income 
+stood at INR133.62 crores, registering a year-on-year growth of 16.1% compared to Q2 FY26. 
+EBITDA stood at INR7 crores with an EBITDA margin of 5.24%. Net profit stood at INR3.99 
+crores with a net profit margin of 2.98%. 
+ 
+For the first half of FY27, consolidated total income stood at INR249.06 crores, registering a 
+year-on-year growth of 15.9% compared to H1 FY26. EBITDA stood at INR16.22 crores, with 
+an EBITDA margin of 6.51%. Net profit increased marginally to rupees INR10.39 crores, with 
+a net profit margin of 4.17%. 
+ 
+Overall, our H1 FY27 performance reflects continued growth in our business operations, 
+supported by our expanding client relationships and diversified service portfolio. While revenue 
+growth remained healthy, we continue to focus on improving operating efficiencies and 
+strengthening margins through better execution, disciplined cost management, and an increasing 
+contribution from technology-enabled services. 
+ 
+The outlook for organized facility management, security services, and skill development in India 
+remains encouraging. Increasing demand for professional, compliant, and integrated service 
+providers across corporate, institutional, and government establishments presents opportunities 
+for companies with established operating capabilities and an experienced workforce. 
+ 
+Looking ahead, we are targeting consolidated revenue of over INR500 crores in FY27, supported 
+by the mobilization of recently secured contracts, expansion into new geographies, and deeper 
+relationships with existing clients. Our focus will remain on expanding integrated facility 
+management services, increasing our presence in technology-led offerings, strengthening 
+receivables management, and improving execution efficiency. 
+ 
+We will continue to strengthen our electronic security capability, expand our facility 
+management operations, and leverage our skill development platform to participate in emerging 
+opportunities. 
+ 
+We believe that our established operating platform, diversified service portfolio, and growing 
+order pipeline provide a strong foundation to pursue this growth objective while maintaining a 
+focus on operational discipline and sustainable profitability. 
+
+NIS Management Limited 
+November 17, 2026 
+Page 5 of 17 
+ 
+ 
+Backed by our established operating presence across 40 states, a workforce of more than 19,000 
+personnel, and expanding client base, we remain focused on strengthening our competitive 
+position, improving operational efficiencies, and building a sustainable business over the long 
+term. 
+ 
+We believe that our diversified service portfolio, experienced workforce, and growing presence 
+across corporate and government segments position NIS Management well to capture emerging 
+opportunities in the integrated services industry and create long-term value for all stakeholders. 
+ 
+Before I conclude, I would like to thank our shareholders, customers, employees, and business 
+partners for their continued trust and support. We remain committed to delivering professional 
+services, strengthening our business capabilities, and creating sustainable value for all our 
+stakeholders. 
+ 
+With that, we would now be happy to take your questions. 
+ 
+Moderator: 
+Thank you very much. Ladies and gentlemen, we will now begin the question-and-answer 
+session. First question is from the line of Aditya Verma, an Individual Investor. Please go ahead. 
+ 
+Aditya Verma: 
+Yes, a very good afternoon, sir. Sir, my first question is on the, the company reported 16.09% 
+growth in consolidated income and the income rose to INR133.62 crores in second quarter of 
+FY27. So what were the key factors driving this growth, sir, and which business segment 
+contributed the most? 
+ 
+Management: 
+Right, so I'll take this question. So the fundamental reason for the growth that you would have 
+seen is the new contract that have come, which we have listed out in the, which Mr. Choudhury 
+has listed out in the speech. And we have also provided a breakup of that in the investor PPT. 
+ 
+And fundamentally, the primary drivers of the growth were the security division, which did 
+around INR108.04 crores, and the housekeeping division, which did around INR95.30 crores. 
+And there was quite a bit of growth in the integrated facility management division as well at 
+INR28.96 crores, while the CCTV division grew also significantly to INR6.57 crores. These 
+were the primary drivers of the top-line growth, you know, in this, you know, half year. 
+ 
+Aditya Verma: 
+Okay, so got it, got it. Now my next question is like, despite the revenue growth, consolidated 
+EBITDA declined 29.7% to INR7 crores, with the EBITDA margin declining to 5.24% from 
+8.66%. What were the key reasons behind the margin contractions? 
+ 
+Management: 
+Sir, primary reason for the margin contraction is, at NIS's level, quite a bit of contracts were, 
+have gotten renewed with lower margins considering the fact that there was a bit of, the new 
+labour law changes with above INR21,000 ESIC coverage and all. And we also saw that Keertika 
+recorded negative EBITDA because of the DDU-GKY project that we have gotten. Keertika has 
+been working in that, for a while. 
+
+NIS Management Limited 
+November 17, 2026 
+Page 6 of 17 
+ 
+ 
+Operationally Keertika has been working in that, and we expect to start raising invoices by the 
+end of the year. And, ITI business has shrunk, from, last year's revenue to, around INR30 lakhs. 
+It's seen a contraction to INR30 lakhs. With it, the EBITDA has also gone down. And mostly in 
+FMS, we have taken on certain manpower contracts at lower margins, because of which there 
+was a bit of EBITDA contraction overall. So these are the primary reasons for the EBITDA 
+contraction. 
+ 
+Aditya Verma: 
+Okay, sir got it, got it. Sir my next question is like, going forward, what measures is the company 
+implementing to improve operating efficiency and restore EBITDA margin while sustaining its 
+revenue growth? 
+ 
+Management: 
+So going forward, what we are, you would have noticed that, we have gotten a work order of 
+around INR6.34 crores - CCTV contract. We are expecting to get another INR14 crores to INR15 
+crores of work orders this year. 
+ 
+We have bid for a lot of tenders, and we believe that based on our success rate and our eligibility, 
+we believe that we should be able to, take the CCTV revenue from, from last year it was around 
+INR12 crores, and this year we expect the CCTV revenue in itself to be around INR22 crores to 
+INR23 crores. With an, EBITDA margin of roughly around 20%-25%. 
+ 
+So we see that there would be an improvement there. Secondly, we would start raising invoices 
+on the DDU-GKY contract, which, by the end of the year they have reasonably high margins 
+that would eventually, set off the losses that Keertika has been making. 
+ 
+And finally, sir, one of the things which is important is to understand that in our industry, when 
+we take on a new contract, which we have, we've taken on a lot of contracts, as you've seen, 
+since last year September we did the IPO, and since then we've taken on around INR120 crores 
+worth of work orders. So what happens is that it takes a while to settle the, the, it takes around 
+5 months-6 months for the sites to settle down. 
+ 
+By that I mean that bank guarantees, agreements, and specifically these cycles are longer in 
+government. So government takes longer to draft agreements and finalize the bank guarantees 
+and settle how the billing will happen, how the payment cycles will take place and everything. 
+So typically I think it takes around 6 months to 8 months for these contracts to settle down. 
+ 
+And, once these contracts settle down, typically the other expenses in terms of operational 
+expenses and, material consumption, they also tend to stabilize, which then helps with the 
+EBITDA margin. So these are the three pillars on which we believe that we should be able to 
+get a better EBITDA margin by March. 
+ 
+Aditya Verma: 
+Okay, sir. Got it, got it. That's it from my side, sir. Thank you for the opportunity. 
+ 
+Management: 
+Thank you, sir. 
+
+NIS Management Limited 
+November 17, 2026 
+Page 7 of 17 
+ 
+ 
+Moderator: 
+Thank you. Next question is from the line of Darshan Chandra from OM Investment. Please go 
+ahead. 
+ 
+Darshan Chandra: 
+Hello, I'm audible, sir? 
+ 
+Management: 
+Yes, sir. 
+ 
+Darshan Chandra: 
+Sir, just, I want to mean, have two, three questions regarding the EBITDA front. You the 
+management has said in the last con call, Debajit sir has said that on the INR500 crores revenue, 
+the EBITDA margins may be increased by 1% to 8%. But in this quarter, the EBITDA margin 
+has gone down. So for the whole of FY27, what kind of the minimum conservative EBITDA 
+can the management or a company give to investor? And create the wealth for the shareholder 
+as mentioned in the management commentary. 
+ 
+Management: 
+Sir, I think the yes, so the guidance would be around 7% to 7.5% on a very conservative base, 
+but we expect, Yes, but like I mentioned, yes sir. 
+ 
+Darshan Chandra: 
+But in this quarter it has gone down from maybe around 5%, know? So you are, you are saying 
+that in the H2 it will be covered? 
+ 
+Management: 
+In the H2, provided that we focus on, we get the tenders that we are, we have applied for, which 
+are high margin, CCTV tenders, then I think it should improve. It should go back to 7%. 
+ 
+Darshan Chandra: 
+No, no on the, already we have a tender. On that you have said that the INR500 crores revenue 
+will be for FY27 and around INR630 crores to INR650 crores for FY28. So what kind of guide, 
+what kind of EBITDA margin does the shareholder should aim for the company? 
+ 
+Means 7% is conservative and 8% and 8.5% maybe for a CCTV growth comes in because it is 
+fluctuating very much. We were expecting around 6.5% to 7% EBITDA for this quarter, but it 
+has gone, gone down from 7% to 5%, and your PAT has gone down from 6%, quarter-on-quarter, 
+from 6.5% to maybe 3.75%. 
+ 
+Management: 
+Right, sir. So I think by second half it should go back to 7%. 
+ 
+Darshan Chandra: 
+At least you should, at least in the last con call you have given the guidance of maybe 7% 
+conservative and for FY27 also, upward revision of 1% to 1.5% due to CCTV coming in 
+business, right? But in this quarter 2, it has gone fluctuated. Maybe some one time was there, or 
+what was the reason for the EBITDA going down from 7% to maybe below 5% or around 5%? 
+And how will it will be covered up in H2? 
+ 
+Management: 
+So like I mentioned that, there were quite a bit of renewals that happened at a lower margin. 
+Okay, and, and the ITI revenue has shrunk this year, which led to a lower EBITDA margin again. 
+And the DDU-GKY project which we had gotten this year in July, Keertika has been operating 
+on that, and that operations has led to the amount of investments required that has led to a loss 
+in Keertika, because of which the margins have shrunk. 
+
+NIS Management Limited 
+November 17, 2026 
+Page 8 of 17 
+ 
+ 
+Darshan Chandra: 
+Yes, but are you factoring that, due to lower revision of your contract in H2 also, you are giving 
+the 7% EBITDA guidance for whole FY27 will be maintained? 
+ 
+Management: 
+I think that if we are able to convert... 
+ 
+Darshan Chandra: 
+Conservatively? 
+ 
+Management: 
+Yes, if we are able to convert the CCTV contract that we have already bid for, then even with a 
+lower renewal rate, or with a lower rate at which the renewals are happening, we should be able 
+to reach around 7%. 
+ 
+Darshan Chandra: 
+It means you are saying that for FY27, 7% minimum EBITDA margin, operating margin, will 
+be maintained so that our PAT reaches around INR24 crores to INR25 crores, right? On INR500 
+crores, the EBITDA margin is 7%. The PAT margin should come around 5% or 5.5%. So it will 
+be easy to maintain INR24 crores to INR25 crores PAT on the quarterly run rate of INR6.5 
+crores. So it comes around INR26 crores, but INR24 crores to INR25 crores is easily possible? 
+ 
+Management: 
+We'll have to see on that. I think it should be. 
+ 
+Darshan Chandra: 
+According to your guidance only, we are saying that it should become -- it should come. 
+ 
+Management: 
+It should come, but a lot depends on the conversion rate at the CCTV level. 
+ 
+Darshan Chandra: 
+But CCTV level, that conversion means in order, it will be for FY27. Now that orders will be 
+for FY27 only, right? 
+ 
+Management: 
+So what happens oftentimes -- this is Debajit, sir -- what happens oftentimes in government 
+contracts is that when we actually expect the CCTV contracts to convert, or even other public 
+sector contracts especially -- Yes, oftentimes there is a delay in the conversion. The conversion 
+happens, but what happens if there is a delay in the conversion, then we do not always reach a 
+position to raise our invoices on the contracts within the period, that within the quarter that we 
+are talking about, or even within the last few days of the financial year. 
+ 
+Okay, if we have these conversions coming in a time that we are expecting, then we should be 
+reaching the targets that we have set ourselves for. This is one. Whereas I'll give you an example, 
+sir. We had expected that the DDU-GKY orders would come through and we should be in a 
+position to raise our invoices, at least the first tranche of invoices, already by this time. 
+ 
+Whereas the orders have come and yet the execution of these contracts have not yet started. We 
+are expecting them to start sometime towards the end of this month or early December. Now 
+once that happens, the invoicing will take at least another, say, 3 months, so 90 days. So by the 
+time invoicing happens, then we should be able to reach our targeted figures. 
+ 
+Darshan Chandra: 
+And on your -- in the last con-call, because of your -- you are so bullish, because in the first Q1, 
+the CCTV business was not -- business invoice was not coming, you said in the quarter from Q2 
+and Q3, the invoice will be coming from CCTV, that high margin business. So we were 
+
+NIS Management Limited 
+November 17, 2026 
+Page 9 of 17 
+ 
+ 
+expecting something around EBITDA around 8% of EBITDA, and going forward it will be 
+maintained. 
+ 
+And we were very bullish on the company, but suddenly then Q2, the margins has gone below - 
+- means it has gone below way, means 29% below what you have guided for, and maybe higher, 
+because we were expecting something around 8% because of CCTV coming business, CCTV 
+coming business in Q2 and Q3. But somehow it has not matched your given guidance. It is way 
+below. That was a problem. 
+ 
+Management: 
+I hope that by the next quarter itself, of which we are into that quarter and we are operating, and 
+once we see that the contracts that we have just received, you will see which I mentioned in my 
+speech, these contracts, as we start getting these conversions, the service charges will help us to 
+boost the EBITDA margin. 
+ 
+Darshan Chandra: 
+Okay, because when we maintain the EBITDA margin, the PAT margin will come, right? And 
+when PAT margin will come, the way the investor will gain, or it will be something— you 
+understand that? 
+ 
+Management: 
+I fully agree. It is also, what we are noticing, that the investor confidence is fluctuating a bit, and 
+that should stabilize very soon. And I will... 
+ 
+Darshan Chandra: 
+Sir, that will stabilize when you meet the guidance, or at least beat the guidance what you have 
+given. 
+ 
+Management: 
+Yes, sir, that is what we are looking at. 
+ 
+Darshan Chandra: 
+Yes. If any other... 
+ 
+Moderator: 
+Thank you. Next question is from the line of Nitin Shah, an Individual Investor. Please go ahead. 
+ 
+Nitin Shah: 
+Hi, I hope I'm audible. 
+ 
+Management: 
+Yes. 
+ 
+Nitin Shah: 
+Yes, good afternoon, sir. Sir, so my first question is that, as subsidiary received an INR6.24 
+crores order from ANPR in IP-based CCTV surveillance across 9 police districts and 1 
+Commissionerate, so could you provide an update on the implementation timeline and expected 
+contribution from this project? 
+ 
+Management: 
+So the implementation timeline is 15th of December, but I think we will, as per what I have 
+understood, it will take around 10th January to 12th January to finish the project because of 
+clearances. So that is one. And second is, the contribution margin that we have budgeted before 
+we took the project was around 18% to 19%. 
+
+NIS Management Limited 
+November 17, 2026 
+Page 10 of 17 
+ 
+ 
+Nitin Shah: 
+Okay, sir. And so, we can see that the electric surveillance, CCTV monitoring, and ANPR 
+systems and other technologies, security solutions demands rising. So what is company strategy 
+to expand its presence in this segment? 
+ 
+Management: 
+Company strategy to expand in the CCTV segment, you said? 
+ 
+Nitin Shah: 
+Yes, in CCTV, electronic surveillance. 
+ 
+Management: 
+I'll try to answer that. You see, the whole of this electronic segment is now gradually shifting 
+towards AI-embedded surveillance systems and the CCTV systems, etcetera. They are mostly 
+coming with AI supports. And so we are looking at, basically focusing more onto these sectors. 
+We are working with several of the OEMs in generating our capabilities in cameras, CCTV 
+cameras for edge processing. And once that happens, these are gradually being laid out. We shall 
+be able to pick up more contracts. 
+ 
+In fact, we are intending to focus a lot more, as I have said earlier also, into the electronic 
+segment. And there are expectations that we shall be able to have a strong boost in the demands 
+from the government institutions for this, especially in West Bengal and Mumbai. In West 
+Bengal, you see, there has been a change of the government, and we were already expecting that 
+many of the pending contracts of the West Bengal government, which were pending because of 
+the election, etcetera, would be coming out. 
+ 
+But they have also taken their time. And it should now start happening, and we should be 
+focusing a lot on that. So coming forward, we will be seeing quite a few more CCTV contracts 
+coming our way, and each of these contracts would traditionally have a higher contribution 
+margin. 
+ 
+Nitin Shah: 
+Okay. And sir, how does management see the contribution of technology-enabled services, the 
+company's overall revenue and profitability over the next 2 to 3 years, particularly compared 
+with the traditional manpower-based security services? 
+ 
+Management: 
+Sir, very strongly. Firstly, what we are looking at is, we are possibly going to have our standard 
+security services contract gradually being converted into hybrid modes. So the hybrid modes 
+would mean that we would be having access control systems. We will have more electronics, 
+CCTV systems. 
+ 
+We can have intrusion detection systems and other such technology-enabled services getting 
+into the same contracts that we normally do for manpower servicing. And there is already a 
+pretty strong interest in our customer base. And we are including -- we have approached banks 
+and to whom we are already providing our security services to actually start taking over a control 
+room service from us, so that all large number of branches of the banks can be monitored by a 
+centralized control room structure. 
+
+NIS Management Limited 
+November 17, 2026 
+Page 11 of 17 
+ 
+ 
+And we are quite far into the discussions and even in the design phase of building up such control 
+room infrastructures. Going forward, this will be a significant portion of our revenue, which 
+would be coming on a subscription basis. We will see… 
+ 
+Nitin Shah: 
+Okay, sir, got it. Thank you, sir. 
+ 
+Management: 
+Thank you. 
+ 
+Moderator: 
+Thank you. Next question is from the line of Vikash Sharma, an Individual Investor. Please go 
+ahead. 
+ 
+Vikash Sharma: 
+Audible, am I, sir? 
+ 
+Management: 
+Yes, yes. 
+ 
+Vikash Sharma: 
+Hello, sir. Good afternoon. I want to know about the Odisha government order we have for the 
+training and placement of rural youth? 
+ 
+Management: 
+Sir, can you try to be a bit louder? 
+ 
+Vikash Sharma: 
+Hello. 
+ 
+Management: 
+Yes, this is better. 
+ 
+Vikash Sharma: 
+Yes. This is about the Odisha government order for training and placement of rural youth under 
+a DDU-GKY program. Could you give me an idea on execution timeline and expected revenue 
+contribution from this project? 
+ 
+Management: 
+Right, sir. I think, it's a project to train around 1,200 people in Odisha, and basis, the total work 
+order value is INR7.93 crores. And the billing happens only after training and skilling -- training 
+and placements. So, basically, it's not just that you train them and you can raise the bill with the 
+client. You will have to train them and place them, and after that you can raise the bill. 
+ 
+So there is a bit of a upfront expenditure that is required to set up the training centers and engage 
+the teachers and provide residential accommodation to students and schooling, etcetera. And I 
+think the training and placement happens all in 6 months. And so, we are expecting that we 
+should start raising the invoices by Quarter 4 of this year. 
+ 
+Management: 
+The payments would be coming in tranches. So, there would be some payments which we will 
+be receiving -- a portion of the payments per candidate we should be receiving within the first 
+month, but that is a smaller component of the total payout. 
+ 
+And then there is a payment which we shall receive after completion of the training, and the 
+final payment we shall be receiving per candidate after completion of another 6 months. So, 
+what happens is that the total payment will come over a period of 9 months but in different 
+tranches. 
+
+NIS Management Limited 
+November 17, 2026 
+Page 12 of 17 
+ 
+ 
+Vikash Sharma: 
+Right, sir. got it. We've also received an order from West Bengal government for training 200-
+odd youths and placing 150 candidates. What's the company's current execution capacity in the 
+skill development segment? And how many candidates does it expect to train and place during 
+FY27? 
+ 
+Management: 
+Sir, actually, what has happened is, NIS and Keertika together, has a very large capacity of 
+providing the training and also inducting the students in its own payroll. Because we train in the 
+similar trades that we do contracts in, so which is security guarding or housekeeping and facility 
+services. 
+ 
+So, if we look at it, your Odisha contract and the West Bengal contract are very similar in line. 
+The Odisha contract is one way larger because most of the allotment has already been issued in 
+the first order itself, whereas in West Bengal, they will be issuing the orders or allocation in 
+tranches again. On completion of the first lot, another lot will be given, and that way. 
+ 
+So, we expect, firstly, and then we also have a very large balance, reserve capability to absorb 
+further such DDU-GKY projects. So, it is possible that we shall be able to take this number, 
+which is right now about 1,400, to more than 3,000 and so, over the next one year or so. 
+ 
+But at the same time, this will also help us in getting a very ready pool of manpower for 
+deployment in the different contracts in these states. We also have -- I'll give you for an example 
+that we also have an application pending in Maharashtra for the DDU-GKY project for quite 
+some time, and the final assessments, etcetera, reviews, evaluations, those are still pending. 
+ 
+Once that is over, then we shall again be getting a substantial number of manpower from that 
+end. So, this comes with a very strong potential both ways. One, for the -- our skill development 
+initiatives by itself, and then again the additional benefit of being able to deploy these personnel. 
+ 
+You are aware possibly that availability of skilled personnel for these trades have become pretty 
+limited, and this will actually help us to service our contracts with different governments and 
+corporates, in a much better way. 
+ 
+Vikash Sharma: 
+Right, I got it. My last question, sir, just to understand the industry, how are you seeing long-
+term potential of skill development and placement business, our business, particularly as you 
+mentioned, with new government programs geographical expansions, opportunities to work with 
+private sector employers? 
+ 
+Management: 
+That is quite high. If we look at it this way that, you see, the Make in Bharat program, that is 
+there with the government, our ITI, the four ITI that we have are very well placed to take 
+advantage of this situation because, the more requirement of skilled, workers in technical trades, 
+as they can grow up, we shall also be able to supply those, manpower, as required. And as it is 
+our students that come out of our ITIs have a very high placement ratio. 
+
+NIS Management Limited 
+November 17, 2026 
+Page 13 of 17 
+ 
+ 
+And so we see a very strong possibility in that. The second is, our own business growth in, 
+security services, facility management, etcetera, should allow, taking in a much larger number 
+of skilled youth than we can currently take. 
+ 
+And, both nowadays, what we are also doing is that we are integrating our, NIS operations and 
+Keertika operations in a way so that we can take a large number of trainees, students in the skill 
+development and then deploy them in our regular contracts. 
+ 
+So, these two are very strong potentials. And we have not yet looked into the third very strong 
+potential, which is due to evolve over the years, next two, three years is, possibly international 
+placement because, gradually international placement requirements, for skilled youth and 
+especially in technical trades and soft services skills, are increasing from different countries. 
+And, we are very oriented towards, satisfying those requirements. 
+ 
+Vikash Sharma: 
+Right. So that was extremely helpful. Thank you, sir. My best wishes for the future. 
+ 
+Management: 
+You're welcome. 
+ 
+Moderator: 
+Thank you. Next question is from the line of Rohit Parmanandka, an Individual Investor. Please 
+go ahead. 
+ 
+Rohit Parmanandka: 
+Yes, hello, good afternoon. Yes, we have seen growth in EBITDA and. 
+ 
+Moderator: 
+Sorry to interrupt, Mr. Rohit, we are unable to hear you, sir. Your, voice is sounding very 
+muffled. If you are connected on any Bluetooth, it is still muffled, sir. In case if you are 
+connected on any kind of the Bluetooth device, can you connect, switch on the handset mode? 
+ 
+Rohit Parmanandka: 
+Yes, now is it audible? 
+ 
+Moderator: 
+Much better. Please. 
+ 
+Rohit Parmanandka: 
+Yes, my question is that we have seen growth on the revenue front, but, like our EBITDA has 
+fallen and there is a significant deterioration on the cash flow front. So, going forward, do you 
+see the cash flow improving, or what steps are the management taking to improve the operating 
+cash flow? 
+ 
+Management: 
+Sure, sir, I'll answer that question. So, basically, the cash flow did not do well, as much as we 
+would have liked it to, primarily because there was INR12 crores delay in collection in the month 
+of August and September, which was on the backs of a lot of transfers in terms of the new 
+government coming in and restructuring their department. 
+ 
+This led to the growth in the trade receivables beyond the growth in sales. We've also seen for 
+the first time quite a bit of generation of RA bills, which we did not see in the earlier, let's say, 
+quarter or the prior quarter. RA bills are essentially those bills that we submit for approval to the 
+government department before we generate the final invoice. 
+
+NIS Management Limited 
+November 17, 2026 
+Page 14 of 17 
+ 
+ 
+There was a bit of a delay up to September in terms of collections. But that has been sorted out 
+before Durga Puja, and we received a large chunk of collection. So going forward, in March, if 
+I can just project a particular cash flow, then my sense would be that the trade receivables should 
+reduce by INR10 to INR12 crores. 
+ 
+And with the operating cash flow double, then a reduction of INR12 crores in trade receivables, 
+the TDS refund of around INR6.5 to INR7 crores, and INR30 to INR32 crores, it is just a 
+mathematical projection of INR15 into 2, INR32 crores, then we would definitely turn positive 
+operating cash flow by the end of the year. 
+ 
+Rohit Parmanandka: 
+It's so far side edge, so we can expect a better reading cash flow, right? 
+ 
+Management: 
+Yes, yes, absolutely. 
+ 
+Rohit Parmanandka: 
+Yes, yes. Okay. 
+ 
+Moderator: 
+Thank you. Next question is from the line of Tejal from Apex Capital. Please go ahead. You're 
+sounding very low, Tejal. 
+ 
+Tejal: 
+Hello? 
+ 
+Moderator: 
+This is better. Please go ahead. 
+ 
+Management: 
+Yes, please, please continue. 
+ 
+Tejal: 
+When evaluating a new contract before bidding, how does the company determine its expected 
+profitability? And does management follow a minimum operating margin threshold to ensure 
+that the new contracts contribute positively to overall profitability? 
+ 
+Management: 
+Yes, ma'am. So, we not only -- there is, of course, the 2 types of contracts. One is the contracts 
+in the private sector and the other is the contracts in the government sector. Government sector, 
+we try to take contracts at slightly higher margin. In the private sector and the government sectors 
+margins are not very good right now. 
+ 
+In terms of that, we also adjust in terms of the longer receivable cycles. But typically, what we 
+see is that once the site settles in 6 to 8 months, then the margins tend to improve because a lot 
+of the operational expenses tend to stabilize. For example, when you are taking an IFM contract, 
+in the initial stage’s material cost will be more, your supervision costs will be more, and even 
+absenteeism could be more. 
+ 
+You have to replace people, so that is a cost. But as the sites tend to stabilize within 6 to 8 
+months, you get a fair idea of how much material you should be using, and how much 
+supervision is necessary for that cohort of employees. And so typically the margins tend to 
+improve. We take that into consideration when we are taking on a contract. 
+
+NIS Management Limited 
+November 17, 2026 
+Page 15 of 17 
+ 
+ 
+We also take into consideration the FD that gets blocked due to the bank guarantees which we 
+may have to give and the receivable cycle of around 3 months. And adjusted for that, we kind 
+of arrive at a projection over the contract period and then we make a decision on how to -- and 
+we also take into consideration the GeM restrictions wherever the contracts are taken over GeM, 
+and then we arrive at a particular decision to take on a contract or not. 
+ 
+This obviously leads to quite a bit of times we can't bid for quite a few contracts. Let's say 
+contracts which have very open-ended receivable cycles, those are a bit tricky in terms of 
+collections. So, then we won't bid for that. So, these are certain housekeeping things that we do 
+before we take on a contract. 
+ 
+Tejal: 
+Yes, so could you please share the current value of orders awaiting mobilization and typical time 
+taken from winning a contract to generating the revenue? And, are there any ongoing, 
+mobilization or execution delays? 
+ 
+Management: 
+Ma'am, can you just repeat the question? Sorry. 
+ 
+Tejal: 
+Yes, so could you please share the current value of orders awaiting mobilization and typical time 
+taken from winning a contract to generating the revenue? And, are there any ongoing, 
+mobilization or execution delays? 
+ 
+Management: 
+Okay, so, first I'll come to the point that, ma'am, mobilization, it can't take a lot of time, right? 
+So, we, when we get the work order, be it private, be it government, I think government gives 
+us around 10 days to 15 days to mobilize the contract. Private ask us to mobilize immediately. 
+So, mobilization can't take a lot of time when you are taking over a site, because these are 
+security guards and cleaners, and cleaning can't wait. Security is something that can't wait. 
+ 
+So, you have to take the recruitment part of it, has to happen in immediately. Then when it comes 
+to government contracts, it does take a little bit of time to get the BGs in order and bank 
+guarantees in order, collect the EMD which was submitted at the time of bidding, and, signing 
+the agreement. So, the paperwork takes a bit of time, and the point is that you can't raise your 
+invoices till the paperwork happens. 
+ 
+So, we typically expect, initial 2 months to 3 months, of this issue where we are not able to raise 
+the invoice. And then once we are able to raise the invoice, then we raise for 2 months invoice 
+we raise it together. So that typically happens. And then of course month on month it gets -- let's 
+say the invoice for month 1 gets cleared in month 3 or month 4, invoice for month 2 gets cleared 
+in month 5. So, it goes on and on that way. So, these are the first, these are the 2 answers to your 
+2 questions. 
+ 
+And your 3rd question is what are the current mobilizations that are taking place major 
+mobilizations are not really at this point in time. I don't think there are any major mobilizations 
+taking place, but definitely in the CCTV business, in the CCTV that the work order that we had 
+got from CRM, we've already purchased the materials and we are awaiting delivery of the 
+materials in North Bengal. 
+
+NIS Management Limited 
+November 17, 2026 
+Page 16 of 17 
+ 
+ 
+So, Yes, mobilization is happening there. The team has already moved to North Bengal; they are 
+surveying the sites. And the third type of mobilization is the out-of-scope services that we do for 
+quite a few of our clients, which is where we manage the entire retail store, or we manage the 
+entire bank branch. 
+ 
+Their mobilization happens continuously because, you need an electrician, you need a plumber, 
+you need a carpenter, you need a painter, you have to constantly supply these services. So, under 
+out-of-scope, mobilization is happening all the time. So, I hope I've been able to answer the 
+question. 
+ 
+Tejal: 
+Given the manpower-intensive nature of the business, what revenues does management expect… 
+ 
+Management: 
+Ms. Tejal, your voice is breaking, ma'am. We are unable to hear you. 
+ 
+Tejal: 
+Am I audible? Is it clear now? 
+ 
+Management: 
+Yes. 
+ 
+Tejal: 
+Given the manpower-intensive nature of the business, what revenues does management expect 
+to see meaningful operating leverage and an improvement in EBITDA margin? 
+ 
+Management: 
+So, I think Mr. Choudhury will be able to answer that question. 
+ 
+Management: 
+Ma'am, let me try and answer this in this way. You see, as you look at our manpower contracts, 
+traditionally these contracts come in one of the three formats. The pure security guarding 
+services, the pure housekeeping and manpower deployment services, and then there is this 
+integrated facility management services. Now, it is always our intention to get a higher mix of 
+the integrated facility management services. 
+ 
+Because in this, the margins become slightly higher. They become higher not only because of 
+the manpower requirement, but also because usually they come with some mechanization 
+requirement, especially in the cleaning area, giving cleaning equipments. And these are given 
+on a basis of rental or subscription and because of consumable requirements. We usually have a 
+higher margin on this. 
+ 
+So effectively, the more contracts we can shift from security, Vanilla Security and Guarding 
+Services or Vanilla Housekeeping and Soft Services, into an integrated facility management 
+services, our margins in this contract improve by a couple of percentages and which help in the 
+margin growth. And we are working -- you would notice that in Bihar, we had taken up a 
+contracts where we have a slightly more higher areas of margins, and similar such margins in 
+the private sector also in facility management. 
+ 
+Tejal: 
+Okay, thank you. Thank you, sir. 
+ 
+Management: 
+You're welcome. 
+
+NIS Management Limited 
+November 17, 2026 
+Page 17 of 17 
+ 
+ 
+Moderator: 
+Thank you, ladies and gentlemen. That was the last question for today. I now hand the conference 
+over to Mr. Soumik Chatterjee for closing comments. 
+ 
+Soumik Chatterjee: 
+Yes, thank you everyone for joining the conference call of NIS Management Limited. If you 
+have any further queries, you can write to us research@kirinadvisors.com. Once again, thank 
+you everyone for joining the conference. 
+ 
+Management: 
+Thank you very much. 
+ 
+Management: 
+Thank you. 
+ 
+Moderator: 
+Thank you, ladies and gentlemen. On behalf of NIS Management Limited, that concludes this 
+conference. Thank you for joining us, and you may now disconnect your lines. Thank you.

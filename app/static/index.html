@@ -1,0 +1,402 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finosauras | Concall Intelligence</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f6fb;
+            color: #172033;
+        }
+
+        header {
+            background: #111c35;
+            color: white;
+            padding: 22px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        header h1 {
+            font-size: 23px;
+        }
+
+        header p {
+            color: #b8c5df;
+            margin-top: 5px;
+            font-size: 13px;
+        }
+
+        .connection {
+            font-size: 13px;
+            padding: 9px 14px;
+            border-radius: 20px;
+            background: #34415b;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 18px;
+            margin-bottom: 25px;
+        }
+
+        .stat-card, .company-card {
+            background: white;
+            border-radius: 12px;
+            padding: 22px;
+            box-shadow: 0 3px 12px #1720330d;
+        }
+
+        .stat-card h2 {
+            font-size: 28px;
+            margin-top: 10px;
+            color: #3157c8;
+        }
+
+        .stat-card p {
+            color: #68748a;
+            font-size: 14px;
+        }
+
+        .toolbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        input {
+            padding: 12px 15px;
+            width: 280px;
+            max-width: 100%;
+            border: 1px solid #d9dfeb;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        .company-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 18px;
+        }
+
+        .company-card h3 {
+            margin-bottom: 10px;
+            color: #1d2c4b;
+        }
+
+        .company-card p {
+            color: #68748a;
+            font-size: 13px;
+            margin-bottom: 14px;
+        }
+
+        button {
+            border: none;
+            padding: 10px 15px;
+            background: #3157c8;
+            color: white;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #2445a8;
+        }
+
+        .details {
+            background: white;
+            margin-top: 25px;
+            padding: 25px;
+            border-radius: 12px;
+            display: none;
+            box-shadow: 0 3px 12px #1720330d;
+        }
+
+        .details h2 {
+            margin-bottom: 15px;
+        }
+
+        .details h3 {
+            margin: 20px 0 10px;
+        }
+
+        pre {
+            background: #f4f6fb;
+            padding: 15px;
+            border-radius: 8px;
+            white-space: pre-wrap;
+            overflow-wrap: anywhere;
+            overflow-x: auto;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        .notification {
+            background: #eaf1ff;
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            font-size: 13px;
+        }
+
+        #notifications {
+            margin-top: 30px;
+        }
+
+        #notifications h2 {
+            margin-bottom: 15px;
+        }
+
+        .muted {
+            color: #68748a;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 18px;
+            }
+
+            main {
+                padding: 0 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div>
+        <h1>Finosauras</h1>
+        <p>AI-Powered Concall Intelligence Platform</p>
+    </div>
+
+    <div class="connection" id="connectionStatus">
+        Connecting to WebSocket...
+    </div>
+</header>
+
+<main>
+
+    <section class="stats">
+        <div class="stat-card">
+            <p>Total Company Summaries</p>
+            <h2 id="totalCount">0</h2>
+        </div>
+
+        <div class="stat-card">
+            <p>Connection Status</p>
+            <h2 id="connectionValue">Offline</h2>
+        </div>
+    </section>
+
+    <section class="toolbar">
+        <h2>Company Summaries</h2>
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search company..."
+        >
+    </section>
+
+    <section class="company-grid" id="companyGrid">
+        <p>Loading company summaries...</p>
+    </section>
+
+    <section class="details" id="details">
+        <h2 id="detailCompany"></h2>
+
+        <h3>AI Summary (JSON)</h3>
+        <pre id="jsonContent"></pre>
+
+        <h3>Formatted Summary (Markdown)</h3>
+        <pre id="markdownContent"></pre>
+    </section>
+
+    <section id="notifications">
+        <h2>Live Notifications</h2>
+        <p class="muted" id="noNotifications">
+            Waiting for new transcript notifications...
+        </p>
+        <div id="notificationList"></div>
+    </section>
+
+</main>
+
+<script>
+    const API_URL = window.location.origin;
+    let allSummaries = [];
+
+    async function loadSummaries() {
+        try {
+            const response = await fetch(`${API_URL}/api/summaries`);
+
+            if (!response.ok) {
+                throw new Error("Unable to load summaries");
+            }
+
+            const data = await response.json();
+
+            allSummaries = data.summaries || [];
+
+            document.getElementById("totalCount").textContent =
+                data.total ?? allSummaries.length;
+
+            displayCompanies(allSummaries);
+
+        } catch (error) {
+            document.getElementById("companyGrid").textContent =
+                "Could not load summaries. Please check the backend.";
+            console.error(error);
+        }
+    }
+
+    function displayCompanies(companies) {
+        const grid = document.getElementById("companyGrid");
+        grid.replaceChildren();
+
+        if (companies.length === 0) {
+            grid.textContent = "No company summaries found.";
+            return;
+        }
+
+        companies.forEach((company) => {
+            const card = document.createElement("div");
+            card.className = "company-card";
+
+            const title = document.createElement("h3");
+            title.textContent = company.company_name || "Unknown Company";
+
+            const date = document.createElement("p");
+            date.textContent = "Processed: " +
+                (company.created_at || "Date unavailable");
+
+            const button = document.createElement("button");
+            button.textContent = "View Summary";
+            button.addEventListener("click", () => showDetails(company));
+
+            card.append(title, date, button);
+            grid.appendChild(card);
+        });
+    }
+
+    function showDetails(company) {
+        document.getElementById("detailCompany").textContent =
+            company.company_name || "Company Summary";
+
+        document.getElementById("jsonContent").textContent =
+            JSON.stringify(company.summary || {}, null, 2);
+
+        document.getElementById("markdownContent").textContent =
+            company.markdown || "No Markdown summary available.";
+
+        const details = document.getElementById("details");
+        details.style.display = "block";
+        details.scrollIntoView({ behavior: "smooth" });
+    }
+
+    document.getElementById("searchInput").addEventListener("input", (event) => {
+        const search = event.target.value.toLowerCase();
+
+        const filtered = allSummaries.filter(company =>
+            (company.company_name || "").toLowerCase().includes(search)
+        );
+
+        displayCompanies(filtered);
+    });
+
+    function connectWebSocket() {
+        const protocol = window.location.protocol === "https:" ? "wss:" : "ws:";
+        const socket = new WebSocket(`${protocol}//${window.location.host}/ws/updates`);
+
+        socket.onopen = () => {
+            document.getElementById("connectionStatus").textContent =
+                "● WebSocket Connected";
+
+            document.getElementById("connectionValue").textContent =
+                "Online";
+        };
+
+        socket.onmessage = (event) => {
+            try {
+                const data = JSON.parse(event.data);
+
+                if (data.type === "connection") {
+                    return;
+                }
+
+                addNotification(data);
+
+                // Refresh the company list after a new transcript is processed.
+                loadSummaries();
+
+            } catch (error) {
+                console.error("Invalid WebSocket message:", error);
+            }
+        };
+
+        socket.onclose = () => {
+            document.getElementById("connectionStatus").textContent =
+                "● WebSocket Disconnected";
+
+            document.getElementById("connectionValue").textContent =
+                "Offline";
+
+            setTimeout(connectWebSocket, 3000);
+        };
+
+        socket.onerror = (error) => {
+            console.error("WebSocket error:", error);
+            socket.close();
+        };
+    }
+
+    function addNotification(data) {
+        document.getElementById("noNotifications").style.display = "none";
+
+        const item = document.createElement("div");
+        item.className = "notification";
+
+        const heading = document.createElement("strong");
+        heading.textContent = data.company || "Company";
+
+        const message = document.createElement("p");
+        message.textContent = data.message || "New update received.";
+
+        item.append(heading, message);
+
+        const list = document.getElementById("notificationList");
+        list.prepend(item);
+    }
+
+    loadSummaries();
+    connectWebSocket();
+</script>
+
+</body>
+</html>
