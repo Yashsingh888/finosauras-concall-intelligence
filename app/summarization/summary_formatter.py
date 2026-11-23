@@ -1,27 +1,42 @@
 
 import json
+import re
 from pathlib import Path
 
 
 class SummaryFormatter:
 
     def __init__(self):
-
         self.output_folder = Path("data/summaries")
-
         self.output_folder.mkdir(
             parents=True,
             exist_ok=True
         )
 
-    def save_json(self, summary, company_name):
+    def get_file_path(self, company_name, transcript_id, extension):
 
-        file_path = self.output_folder / (
-            company_name.replace(" ", "_") + ".json"
+        safe_name = re.sub(
+            r"[^a-zA-Z0-9_-]",
+            "_",
+            company_name
+        )
+
+        if transcript_id:
+            filename = f"{safe_name}_{transcript_id}.{extension}"
+        else:
+            filename = f"{safe_name}.{extension}"
+
+        return self.output_folder / filename
+
+    def save_json(self, summary, company_name, transcript_id=None):
+
+        file_path = self.get_file_path(
+            company_name,
+            transcript_id,
+            "json"
         )
 
         with open(file_path, "w", encoding="utf-8") as file:
-
             json.dump(
                 summary,
                 file,
@@ -30,8 +45,9 @@ class SummaryFormatter:
             )
 
         print("JSON saved:", file_path)
+        return file_path
 
-    def save_markdown(self, summary, company_name):
+    def save_markdown(self, summary, company_name, transcript_id=None):
 
         content = f"""
 # {summary.get('company', company_name)}
@@ -58,8 +74,10 @@ class SummaryFormatter:
 {self.format_list(summary.get('risks', []))}
 """
 
-        file_path = self.output_folder / (
-            company_name.replace(" ", "_") + ".md"
+        file_path = self.get_file_path(
+            company_name,
+            transcript_id,
+            "md"
         )
 
         file_path.write_text(
@@ -68,6 +86,7 @@ class SummaryFormatter:
         )
 
         print("Markdown saved:", file_path)
+        return file_path
 
     def format_list(self, items):
 
@@ -79,16 +98,13 @@ class SummaryFormatter:
         for item in items:
 
             if isinstance(item, dict):
-
                 lines.append(
                     "- " + " | ".join(
                         f"{key}: {value}"
                         for key, value in item.items()
                     )
                 )
-
             else:
-
                 lines.append("- " + str(item))
 
         return "\n".join(lines)
@@ -97,5 +113,4 @@ class SummaryFormatter:
 if __name__ == "__main__":
 
     formatter = SummaryFormatter()
-
     print("Summary Formatter initialized successfully!")

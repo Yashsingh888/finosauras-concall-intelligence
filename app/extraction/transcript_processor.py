@@ -1,19 +1,28 @@
 
+import hashlib
+import re
+from pathlib import Path
+
 from app.extraction.pdf_downloader import PDFDownloader
 from app.extraction.pdf_extractor import PDFExtractor
-from pathlib import Path
+from app.summarization.summary_service import SummaryService
 
 
 class TranscriptProcessor:
 
     def __init__(self):
-
         self.downloader = PDFDownloader()
         self.extractor = PDFExtractor()
+        self.summary_service = SummaryService()
 
-    def process_transcript(self, pdf_url, company_name):
+    def process_and_summarize(self, pdf_url, company_name):
 
         print(f"\nProcessing transcript: {company_name}")
+
+        # Generate the same ID used by PDFDownloader
+        transcript_id = hashlib.sha256(
+            pdf_url.encode("utf-8")
+        ).hexdigest()[:12]
 
         # Step 1: Download PDF
         pdf_path = self.downloader.download_pdf(
@@ -22,40 +31,46 @@ class TranscriptProcessor:
         )
 
         if not pdf_path:
-            print("PDF download failed!")
-            return None
+            raise Exception("PDF download failed")
 
         # Step 2: Extract PDF text
-        extracted_text = self.extractor.extract_text(
-            pdf_path
-        )
+        extracted_text = self.extractor.extract_text(pdf_path)
 
-        if not extracted_text or not extracted_text.strip():
-
-            print("No readable text found in PDF!")
-            return None
+        if not extracted_text or len(extracted_text.strip()) < 100:
+            raise Exception("Transcript text is empty or too short")
 
         # Step 3: Save extracted text
         output_folder = Path("data/extracted_text")
+        output_folder.mkdir(parents=True, exist_ok=True)
 
-        output_folder.mkdir(
-            parents=True,
-            exist_ok=True
+        safe_name = re.sub(
+            r"[^a-zA-Z0-9_-]",
+            "_",
+            company_name
         )
 
-        output_path = output_folder / (
-            Path(pdf_path).stem + ".txt"
+        text_path = output_folder / (
+            f"{safe_name}_{transcript_id}.txt"
         )
 
-        output_path.write_text(
+        text_path.write_text(
             extracted_text,
             encoding="utf-8"
         )
 
-        print("\nTranscript processing completed!")
-        print("Extracted text saved at:", output_path)
+        print("Extracted text saved:", text_path)
 
-        return extracted_text
+        # Step 4: Generate summary and save JSON,
+        # Markdown and SQLite using the same ID
+        summary = self.summary_service.generate_summary(
+            extracted_text,
+            company_name,
+            transcript_id=transcript_id
+        )
+
+        print("Complete transcript processing successful!")
+
+        return summary
 
 
 if __name__ == "__main__":
