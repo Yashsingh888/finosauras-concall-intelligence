@@ -2,22 +2,25 @@
 
 ## Overview
 
-Finosauras is an AI-powered Concall Intelligence Platform that collects corporate announcements from NSE and BSE, identifies earnings call transcript announcements, downloads PDF transcripts, extracts text, and generates structured summaries using Google's Gemini API.
+Finosauras is an AI-powered Concall Intelligence Platform that collects corporate announcements from the National Stock Exchange (NSE) and Bombay Stock Exchange (BSE), identifies earnings call transcript announcements, downloads transcript PDFs, extracts text, and generates structured summaries using Google's Gemini API.
 
-The platform stores announcement and summary information in an SQLite database and provides REST APIs and WebSocket notifications for real-time updates.
+The platform stores announcement metadata and generated summaries in an SQLite database. It also provides REST APIs, WebSocket notifications, and a web dashboard for accessing transcript summaries.
 
 ## Key Features
 
 - Fetch corporate announcements from NSE and BSE.
-- Identify announcements related to earnings call transcripts.
+- Identify earnings call transcript announcements.
 - Store announcement metadata in SQLite.
 - Download transcript PDF files.
 - Extract text from PDF documents using PyMuPDF.
 - Generate structured AI summaries using Google Gemini.
+- Process long transcripts using text chunking.
 - Save summaries in JSON and Markdown formats.
+- Store generated summaries in the database.
 - Provide company-wise summary APIs.
-- Support real-time WebSocket notifications.
+- Support real-time WebSocket communication.
 - Display summaries through a web dashboard.
+- Schedule automatic announcement collection and pending transcript processing.
 
 ## Technology Stack
 
@@ -31,11 +34,12 @@ The platform stores announcement and summary information in an SQLite database a
 | Real-time Communication | WebSocket |
 | Frontend | HTML, CSS, JavaScript |
 | Scheduler | APScheduler |
+| Environment Configuration | Python dotenv |
 
 ## Project Architecture
 
 ```text
-finosauras/
+finosauras-concall-intelligence/
 │
 ├── app/
 │   ├── api/
@@ -51,8 +55,7 @@ finosauras/
 │   ├── extraction/
 │   │   ├── pdf_downloader.py
 │   │   ├── pdf_extractor.py
-│   │   ├── process_pending.py
-│   │   └── extract_pending.py
+│   │   └── transcript_processor.py
 │   │
 │   ├── ingestion/
 │   │   ├── nse_fetcher.py
@@ -65,6 +68,7 @@ finosauras/
 │   │   ├── prompts.py
 │   │   ├── ai_summarizer.py
 │   │   ├── summary_formatter.py
+│   │   ├── summary_service.py
 │   │   └── run_summaries.py
 │   │
 │   ├── static/
@@ -73,25 +77,26 @@ finosauras/
 │   └── main.py
 │
 ├── data/
-│   ├── transcripts/
-│   ├── extracted_text/
-│   ├── summaries/
-│   ├── samples/
-│   └── finosauras.db
+│   └── samples/
+│       ├── Frontier_Springs/
+│       ├── Millworks_Technologies/
+│       └── NIS_Management/
 │
-├── .env
+├── .env.example
 ├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
+
+Runtime folders and the SQLite database are created or populated when the application runs.
 
 ## Installation and Setup
 
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd finosauras
+git clone https://github.com/Yashsingh888/finosauras-concall-intelligence.git
+cd finosauras-concall-intelligence
 ```
 
 ### 2. Create a virtual environment
@@ -100,10 +105,10 @@ cd finosauras
 python -m venv venv
 ```
 
-Activate it on Windows:
+Activate it on Windows PowerShell:
 
 ```powershell
-venv\Scripts\activate
+venv\Scripts\Activate.ps1
 ```
 
 ### 3. Install dependencies
@@ -114,20 +119,30 @@ pip install -r requirements.txt
 
 ### 4. Configure environment variables
 
-Create a `.env` file in the project root:
+Create your `.env` file using the provided example:
+
+```powershell
+Copy-Item .env.example .env
+```
+
+Open `.env` and configure your Gemini API key:
 
 ```env
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 GEMINI_MODEL=gemini-3.5-flash-lite
 ```
 
-Never upload your actual API key to GitHub.
+**Security:** Never upload your actual `.env` file or Gemini API key to GitHub. The `.env` file is excluded through `.gitignore`.
 
 ### 5. Start the application
+
+Run the following command from the project root:
 
 ```bash
 uvicorn app.main:app --reload
 ```
+
+The FastAPI application starts the scheduled transcript pipeline automatically.
 
 ## Application URLs
 
@@ -145,13 +160,13 @@ uvicorn app.main:app --reload
 
 `GET /api/summaries`
 
-Returns company-wise summaries stored in the database.
+Returns generated transcript summaries stored in the database.
 
 ### Get a company summary
 
 `GET /api/summaries/{company_name}`
 
-Returns the summary for a particular company.
+Returns the summary associated with a particular company.
 
 ### Publish a notification
 
@@ -163,7 +178,7 @@ Publishes a notification to connected WebSocket clients.
 
 `POST /api/notifications/test`
 
-Sends a test notification.
+Sends a test notification to connected clients.
 
 ## Sample Companies
 
@@ -180,36 +195,44 @@ Each sample contains:
 - Structured JSON summary
 - Formatted Markdown summary
 
+These samples demonstrate the transcript extraction and summarization output formats.
+
 ## Pipeline Workflow
 
-1. Fetch announcements from NSE and BSE.
-2. Filter announcements related to concall transcripts.
+1. Fetch corporate announcements from NSE and BSE.
+2. Filter announcements related to earnings call transcripts.
 3. Store announcement metadata in SQLite.
-4. Download transcript PDFs.
-5. Extract transcript text.
-6. Send transcript text to Gemini for summarization.
-7. Generate structured JSON and Markdown summaries.
-8. Store summaries in the database.
-9. Provide summaries through REST APIs.
-10. Notify connected clients through WebSockets.
+4. Identify pending transcript announcements.
+5. Download transcript PDF files.
+6. Extract transcript text using PyMuPDF.
+7. Divide long transcripts into manageable chunks.
+8. Send transcript content to Gemini for summarization.
+9. Generate structured JSON and Markdown summaries.
+10. Store generated summaries in SQLite.
+11. Provide summaries through REST APIs.
+12. Send WebSocket notifications when transcript processing completes or fails.
+
+The scheduler runs the pipeline automatically at configured intervals.
 
 ## Limitations
 
-- NSE and BSE availability depends on their APIs, network connectivity and access restrictions.
+- NSE and BSE data availability depends on network connectivity, exchange access restrictions, and source availability.
 - PDF extraction quality depends on the source document. Scanned PDFs may require OCR.
-- Gemini API usage is subject to API quotas, rate limits and network availability.
-- AI-generated summaries should be checked against the original transcript.
-- The current implementation uses SQLite, which is suitable for this prototype but may need a more scalable database in production.
-- Transcript downloading, extraction and summarization are available through separate processing scripts; the scheduled collector currently handles announcement collection.
+- Gemini API usage is subject to API quotas, rate limits, and network availability.
+- AI-generated summaries may contain inaccuracies and should be checked against the original transcript.
+- SQLite is suitable for this prototype but may need replacement with a more scalable database in production.
+- Failed announcements require improved retry and recovery handling.
+- WebSocket notifications depend on the application server and active client connections.
 
 ## Future Improvements
 
 - Add OCR support for scanned PDF documents.
-- Implement automated end-to-end transcript processing.
-- Add retry queues and improved error handling.
+- Implement retry queues and automatic recovery for failed transcripts.
+- Improve logging and error tracking.
 - Use PostgreSQL for production deployment.
-- Improve dashboard filtering and analytics.
+- Improve dashboard filtering and financial analytics.
 - Add authentication and role-based access control.
+- Support more advanced financial metrics and company comparisons.
 
 ## Disclaimer
 
